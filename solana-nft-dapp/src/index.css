@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(
+        90deg,
+        rgb(8, 0, 7) 0%,
+        rgba(8, 0, 14, 0.98) 50%,
+        rgba(8, 0, 20, 0.99) 100%
+    );
+}
+
+* {
+    box-sizing: border-box;
+}

@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Honk&display=swap");
+
+.nav-link {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.nav-link.first-link {
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "Protest Guerrilla", sans-serif;
+}
+
+.link-wallet {
+    font-family: "Roboto", sans-serif;
+    border: none;
+    outline: none;
+    background-color: #6c5ce7;
+    padding: 8px 25px 8px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 5px;
+    transition: all ease 0.1s;
+    box-shadow: 0px 5px 0px 0px #a29bfe;
+}
+
+.link-wallet:active {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px #a29bfe;
+}
+
+.nav-link.sell-music {
+    font-size: 48px;
+    font-family: "honk";
+}
