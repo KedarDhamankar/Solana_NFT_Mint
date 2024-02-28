@@ -2,6 +2,7 @@ import { useState } from "react";
 import Navbar from "./components/Navbar";
 import axios from "axios";
 import { signAndConfirmTransactionFe } from "./utilityfunc";
+import "./App.css";
 
 function App() {
     const getProvider = () => {
@@ -112,7 +113,7 @@ function App() {
     return (
         <>
             <Navbar />
-            Keep your Phantom wallet Unlocked!
+            <div className="whitetext">Keep your Phantom wallet Unlocked!</div>
             <div className="max-w-md mx-auto bg-white shadow-lg rounded-lg overflow-hidden mt-7 ">
                 <div className="px-6 py-4">
                     <h1 className="text-xl font-semibold text-gray-900">
